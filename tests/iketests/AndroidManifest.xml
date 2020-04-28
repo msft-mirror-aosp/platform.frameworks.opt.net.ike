@@ -20,14 +20,7 @@
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <!--
-       'debuggable=true' is required to properly load mockito jvmti dependencies,
-        otherwise it gives the following error at runtime:
-
-        Openjdkjvmti plugin was loaded on a non-debuggable Runtime.
-        Plugin was loaded too late to change runtime state to DEBUGGABLE.
-    -->
-    <application android:label="FrameworksIkeTests" android:debuggable="true">
+    <application android:label="FrameworksIkeTests">
         <uses-library android:name="android.test.runner" />
     </application>
 
